@@ -10,6 +10,7 @@ public class factorial{
 		int a = input.nextInt();
 
 		System.out.println(" The factorial is " + factor(a));
+		System.out.println("The facotiral for for loops is " + fact(a));
 		
 	}
 
@@ -19,5 +20,14 @@ public class factorial{
 		}else{
 			return 1;
 		}
+	}
+	
+	public static int fact( int n){
+        	int counter = 1;
+        	for (int i =1; i <= n; i++){
+            		counter  *= i;
+        	}
+        	return counter;
+        
 	}
 }
