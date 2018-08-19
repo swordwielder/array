@@ -1,5 +1,6 @@
-package test;
+
 import java.util.*;
+
 public class test {
 	
 	public static int add(int m) {
@@ -24,10 +25,17 @@ public class test {
 		}while (loop);
 		int result = add(l);
 		System.out.println("The result is  "+  result );
-		
+		System.out.println("The factorial for " + l + " is: " + factorial(l));
 		rando();
 	}
-	
+	public static int factorial (int n ){
+		
+		if (n >0){
+			return n*factorial(n-1);
+		}else{
+			return 1;
+		}
+	}
 	public static void rando() {
 		int ray [] = {1,9,4,4,5,2};
 		int [] m;
@@ -39,8 +47,9 @@ public class test {
 		int[]c= new int [20];
 		c = populate(c);
 		b= populate(b);
-		
+		System.out.println("sorted before:");
 		display(combo(b,c));
+		System.out.println(" Sorted array: ");
 		display(combo(sort(b),sort(c)));
 		
 		LinkedList<String> hero= new LinkedList<String>();
@@ -83,7 +92,7 @@ public class test {
 	
 	public static int [] populate(int []a) {
 		for (int i=0; i<a.length; i++) {
-			int r = (int)(Math.random()*20);
+			int r = (int)(Math.random()*20)+1;
 			a[i]=r;
 		}
 		return a;
