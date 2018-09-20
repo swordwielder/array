@@ -11,6 +11,10 @@ public class test {
 		Scanner bucker = new Scanner(System.in);
 		int x = 10;
 		int y = x-- - --x;
+		int a=10;
+		System.out.println(a--);
+		System.out.println(a);
+		System.out.println(--a);
 		System.out.println(x + " is x and y is "+ y);
 
 		System.out.println("enter a number!");
