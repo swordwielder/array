@@ -9,7 +9,10 @@ public class test {
 	}
 	public static void main (String [] args) {
 		Scanner bucker = new Scanner(System.in);
-		
+		int x = 10;
+		int y = x-- - --x;
+		System.out.println(x + " is x and y is "+ y);
+
 		System.out.println("enter a number!");
 		int l= 0;
 		boolean loop = true;
