@@ -1,8 +1,6 @@
-
 import java.util.*;
 
 public class test {
-	
 	public static int add(int m) {
 		int a = m+10;
 		return a;
@@ -11,7 +9,7 @@ public class test {
 		Scanner bucker = new Scanner(System.in);
 		int x = 10;
 		int y = x-- - --x;
-		int a=10;
+		int a = 10;
 		System.out.println(a--);
 		System.out.println(a);
 		System.out.println(--a);
