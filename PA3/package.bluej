@@ -1,0 +1,22 @@
+#BlueJ package file
+package.editor.height=377
+package.editor.width=573
+package.editor.x=239
+package.editor.y=186
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+project.charset=UTF-8
+target1.editor.height=876
+target1.editor.width=1612
+target1.editor.x=13
+target1.editor.y=43
+target1.height=60
+target1.name=EvaluateInfix
+target1.naviview.expanded=false
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=110
+target1.x=130
+target1.y=120
