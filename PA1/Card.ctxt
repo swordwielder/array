@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=suit
+comment0.target=void\ setSuit(int)
+comment1.params=rank
+comment1.target=void\ setRank(int)
+comment2.params=suit\ rank
+comment2.target=Card(int,\ int)
+comment3.params=
+comment3.target=int\ getRank()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

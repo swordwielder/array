@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ clear()
+comment1.params=
+comment1.target=java.util.ListIterator\ iterator()
+comment10.params=i
+comment10.target=CircularDoubleLinkedList.CDLLNode\ nodeAt(int)
+comment11.params=args
+comment11.target=void\ main(java.lang.String[])
+comment2.params=i
+comment2.target=java.lang.Object\ get(int)
+comment3.params=i\ newData
+comment3.target=void\ set(int,\ java.lang.Object)
+comment4.params=newData
+comment4.target=void\ add(java.lang.Object)
+comment5.params=i
+comment5.target=void\ remove(int)
+comment6.params=newData
+comment6.target=void\ addToHead(java.lang.Object)
+comment7.params=
+comment7.target=void\ removeFromHead()
+comment8.params=newData\ where
+comment8.target=void\ addAfter(java.lang.Object,\ CircularDoubleLinkedList.CDLLNode)
+comment9.params=where
+comment9.target=void\ removeAfter(CircularDoubleLinkedList.CDLLNode)
+numComments=12
