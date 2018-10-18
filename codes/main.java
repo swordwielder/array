@@ -3,7 +3,7 @@ import java.util.Set;
 
 public class main
 {
-	public static void main2 (String [] args){
+	public static void main (String [] args){
 		
 		Set<Integer> A = new HashSet<Integer>(5);
 		A.add(1);
