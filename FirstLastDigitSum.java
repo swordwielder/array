@@ -6,7 +6,7 @@ public class FirstLastDigitSum {
         
         if (number == 0){
             return 0;
-        )else if (number < 0){
+        }else if (number < 0){
             return -1;
         }else{
             String test = Integer.toString(number);
